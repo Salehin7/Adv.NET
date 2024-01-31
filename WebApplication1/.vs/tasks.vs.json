@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-WebApplication1",
+      "appliesTo": "WebApplication1/",
+      "type": "launch"
+    }
+  ]
+}
