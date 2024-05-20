@@ -1,0 +1,34 @@
+﻿@model IEnumerable<FoodReservation.Models.RestaurantDTOModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Restaurant</h2>
+@if (Model != null)
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Restaurant ID</th>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Contact</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RestaurantID</td>
+                <td>@item.RestaurantName</td>
+                <td>@item.Location</td>
+                <td>@item.Contact</td>
+                <td>
+                    <form action="/restaurant/addfoodcollectionrequest" method="get">
+                        <input type="hidden" name="RestaurantID" value="@item.RestaurantID" />
+                        <input type="submit" value="Request Food Collection" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FoodReservationSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CollectRequest">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RestaurantID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="MaxPreservationTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RequestDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_CollectRequests_Employees" FromRole="CollectRequests" ToRole="Employees" />
+    <NavigationProperty Name="Restaurant" Relationship="Self.FK_CollectRequests_Restaurants" FromRole="CollectRequests" ToRole="Restaurants" />
+    <NavigationProperty Name="FoodDistributions" Relationship="Self.FK_FoodDistributions_CollectRequests" FromRole="CollectRequests" ToRole="FoodDistributions" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CollectRequests" Relationship="Self.FK_CollectRequests_Employees" FromRole="Employees" ToRole="CollectRequests" />
+  </EntityType>
+  <EntityType Name="FoodDistribution">
+    <Key>
+      <PropertyRef Name="DistributionID" />
+    </Key>
+    <Property Name="DistributionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RequestID" Type="Int32" Nullable="false" />
+    <Property Name="DistributionDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CollectRequest" Relationship="Self.FK_FoodDistributions_CollectRequests" FromRole="FoodDistributions" ToRole="CollectRequests" />
+  </EntityType>
+  <EntityType Name="Restaurant">
+    <Key>
+      <PropertyRef Name="RestaurantID" />
+    </Key>
+    <Property Name="RestaurantID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RestaurantName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CollectRequests" Relationship="Self.FK_CollectRequests_Restaurants" FromRole="Restaurants" ToRole="CollectRequests" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_CollectRequests_Employees">
+    <End Role="Employees" Type="Self.Employee" Multiplicity="1" />
+    <End Role="CollectRequests" Type="Self.CollectRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="CollectRequests">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CollectRequests_Restaurants">
+    <End Role="Restaurants" Type="Self.Restaurant" Multiplicity="1" />
+    <End Role="CollectRequests" Type="Self.CollectRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Restaurants">
+        <PropertyRef Name="RestaurantID" />
+      </Principal>
+      <Dependent Role="CollectRequests">
+        <PropertyRef Name="RestaurantID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FoodDistributions_CollectRequests">
+    <End Role="CollectRequests" Type="Self.CollectRequest" Multiplicity="1" />
+    <End Role="FoodDistributions" Type="Self.FoodDistribution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollectRequests">
+        <PropertyRef Name="RequestID" />
+      </Principal>
+      <Dependent Role="FoodDistributions">
+        <PropertyRef Name="RequestID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FoodReservationSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CollectRequests" EntityType="Self.CollectRequest" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="FoodDistributions" EntityType="Self.FoodDistribution" />
+    <EntitySet Name="Restaurants" EntityType="Self.Restaurant" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_CollectRequests_Employees" Association="Self.FK_CollectRequests_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="CollectRequests" EntitySet="CollectRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CollectRequests_Restaurants" Association="Self.FK_CollectRequests_Restaurants">
+      <End Role="Restaurants" EntitySet="Restaurants" />
+      <End Role="CollectRequests" EntitySet="CollectRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FoodDistributions_CollectRequests" Association="Self.FK_FoodDistributions_CollectRequests">
+      <End Role="CollectRequests" EntitySet="CollectRequests" />
+      <End Role="FoodDistributions" EntitySet="FoodDistributions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

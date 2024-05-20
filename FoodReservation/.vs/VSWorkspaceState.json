@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FoodReservation",
+    "\\FoodReservation\\Controllers",
+    "\\FoodReservation\\EF",
+    "\\FoodReservation\\Models",
+    "\\FoodReservation\\Views",
+    "\\FoodReservation\\Views\\Employee",
+    "\\FoodReservation\\Views\\Home",
+    "\\FoodReservation\\Views\\NGO",
+    "\\FoodReservation\\Views\\Restaurant"
+  ],
+  "SelectedNode": "\\FoodReservation\\Views\\Restaurant\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

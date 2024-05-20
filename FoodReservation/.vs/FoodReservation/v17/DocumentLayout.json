@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\views\\restaurant\\addfoodcollectionrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\views\\restaurant\\addfoodcollectionrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\models\\restaurantdtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\models\\restaurantdtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\views\\employee\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\views\\employee\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\ef\\foodreservationmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\ef\\foodreservationmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\controllers\\ngocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\controllers\\ngocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\views\\ngo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\views\\ngo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|e:\\aiub\\10th semester\\advance .net\\assignment\\foodreservation\\foodreservation\\views\\restaurant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\views\\restaurant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\models\\collectrequestdtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\models\\collectrequestdtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\foodreservation\\models\\employeedtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B61202-7D33-42C7-B89B-951389480B0E}|FoodReservation\\FoodReservation.csproj|solutionrelative:foodreservation\\models\\employeedtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Controllers\\RestaurantController.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "FoodReservation\\Controllers\\RestaurantController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAApwDwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:56:12.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\NGO\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodReservation\\Views\\NGO\\Index.cshtml",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\NGO\\Index.cshtml",
+              "RelativeToolTip": "FoodReservation\\Views\\NGO\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T04:19:40.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "FoodReservation\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T16:12:05.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddFoodCollectionRequest.cshtml",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Restaurant\\AddFoodCollectionRequest.cshtml",
+              "RelativeDocumentMoniker": "FoodReservation\\Views\\Restaurant\\AddFoodCollectionRequest.cshtml",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Restaurant\\AddFoodCollectionRequest.cshtml",
+              "RelativeToolTip": "FoodReservation\\Views\\Restaurant\\AddFoodCollectionRequest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T15:58:03.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDashboard.cshtml",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Employee\\EmployeeDashboard.cshtml",
+              "RelativeDocumentMoniker": "FoodReservation\\Views\\Employee\\EmployeeDashboard.cshtml",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Employee\\EmployeeDashboard.cshtml",
+              "RelativeToolTip": "FoodReservation\\Views\\Employee\\EmployeeDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T16:27:58.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestaurantDTOModel.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\RestaurantDTOModel.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Models\\RestaurantDTOModel.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\RestaurantDTOModel.cs",
+              "RelativeToolTip": "FoodReservation\\Models\\RestaurantDTOModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:00:16.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NGOController.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\NGOController.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Controllers\\NGOController.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Controllers\\NGOController.cs",
+              "RelativeToolTip": "FoodReservation\\Controllers\\NGOController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T04:19:26.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodReservationModel.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\EF\\FoodReservationModel.edmx",
+              "RelativeDocumentMoniker": "FoodReservation\\EF\\FoodReservationModel.edmx",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\EF\\FoodReservationModel.edmx [Diagram1]",
+              "RelativeToolTip": "FoodReservation\\EF\\FoodReservationModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-03-15T04:18:18.413Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FoodReservation\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:13:51.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CollectRequestDTOModel.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\CollectRequestDTOModel.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Models\\CollectRequestDTOModel.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\CollectRequestDTOModel.cs",
+              "RelativeToolTip": "FoodReservation\\Models\\CollectRequestDTOModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T04:21:58.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Restaurant\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodReservation\\Views\\Restaurant\\Index.cshtml",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Views\\Restaurant\\Index.cshtml",
+              "RelativeToolTip": "FoodReservation\\Views\\Restaurant\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T16:37:13.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeDTOModel.cs",
+              "DocumentMoniker": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\EmployeeDTOModel.cs",
+              "RelativeDocumentMoniker": "FoodReservation\\Models\\EmployeeDTOModel.cs",
+              "ToolTip": "E:\\AIUB\\10th semester\\Advance .Net\\Assignment\\FoodReservation\\FoodReservation\\Models\\EmployeeDTOModel.cs",
+              "RelativeToolTip": "FoodReservation\\Models\\EmployeeDTOModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T16:30:42.976Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

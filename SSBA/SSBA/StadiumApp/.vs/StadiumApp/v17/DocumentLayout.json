@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\StadiumApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C70A32B-D990-4ADF-8FCC-A22250E99817}|StadiumApp.csproj|d:\\aiub\\adv .net\\projects\\ssba\\stadiumapp\\controllers\\stadiumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C70A32B-D990-4ADF-8FCC-A22250E99817}|StadiumApp.csproj|solutionrelative:controllers\\stadiumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1037E148-2371-4DE3-BC5F-72FD3FCE84D8}|..\\BLL\\BLL.csproj|d:\\aiub\\adv .net\\projects\\ssba\\bll\\services\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1037E148-2371-4DE3-BC5F-72FD3FCE84D8}|..\\BLL\\BLL.csproj|d:\\aiub\\adv .net\\projects\\ssba\\bll\\dtos\\stadiumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StadiumController.cs",
+              "DocumentMoniker": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\StadiumApp\\Controllers\\StadiumController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StadiumController.cs",
+              "ToolTip": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\StadiumApp\\Controllers\\StadiumController.cs",
+              "RelativeToolTip": "Controllers\\StadiumController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:37:38.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StadiumService.cs",
+              "DocumentMoniker": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\BLL\\Services\\StadiumService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\StadiumService.cs",
+              "ToolTip": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\BLL\\Services\\StadiumService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\StadiumService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:34:04.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StadiumDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\BLL\\DTOs\\StadiumDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTOs\\StadiumDTO.cs",
+              "ToolTip": "D:\\AIUB\\ADV .NET\\Projects\\SSBA\\BLL\\DTOs\\StadiumDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTOs\\StadiumDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:32:33.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

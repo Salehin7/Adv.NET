@@ -1,0 +1,22 @@
+﻿@model FoodReservation.Models.CollectRequestDTOModel
+@{
+    ViewBag.Title = "AddFoodCollectionRequest";
+}
+
+@Html.ValidationSummary()
+<h2>AddFoodCollectionRequest</h2>
+<div>
+    @using (Html.BeginForm("AddFoodCollectionRequest", "Restaurant", FormMethod.Post))
+    {
+        @* @Html.HiddenFor(model => model.RestaurantID)*@
+
+        @Html.TextBoxFor(model => model.RestaurantID, new { @class = "form-control", value = Request.QueryString["RestaurantID"] })
+        @Html.TextBoxFor(model => model.MaxPreservationTime, new { @class = "form-control", @placeholder = "Max Preservation Time" })
+        @Html.TextBoxFor(model => model.Status, new { @class = "form-control", @placeholder = "Status" })
+        @Html.TextBoxFor(model => model.RequestDate, new { @class = "form-control", @placeholder = "Request Date" })
+        @Html.TextBoxFor(model => model.EmployeeID, new { @class = "form-control", @placeholder = "Employee ID" })
+
+        <input type="submit" vlaue="Submit" class="btn btn-primary" />
+
+    }
+</div>

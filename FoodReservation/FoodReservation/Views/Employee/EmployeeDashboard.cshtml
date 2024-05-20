@@ -1,0 +1,32 @@
+﻿@model IEnumerable<FoodReservation.Models.EmployeeDTOModel>
+@{
+    ViewBag.Title = "EmployeeDashboard";
+}
+<a href="../ngo/Index">NGO</a>
+<a href="../employee/employeedashboard">Employee</a>
+
+<h2>EmployeeDashboard</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Restaurant Name</th>
+        <th>Location</th>
+        <th>Max Preservation Time</th>
+        <th>Contact</th>
+        <th>Action</th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RestaurantName</td>
+            <td>@item.Location</td>
+            <td>@item.MaxPreservationTime</td>
+            <td>@item.Contact</td>
+            <td>
+                <button class="btn btn-primary">Accept</button>
+            </td>
+        </tr>
+     }
+</table>
+

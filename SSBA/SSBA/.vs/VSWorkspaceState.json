@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BLL",
+    "\\BLL\\Services",
+    "\\DAL",
+    "\\DAL\\Interface",
+    "\\DAL\\Migrations",
+    "\\DAL\\Models",
+    "\\StadiumApp",
+    "\\StadiumApp\\Controllers"
+  ],
+  "SelectedNode": "\\StadiumApp\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}

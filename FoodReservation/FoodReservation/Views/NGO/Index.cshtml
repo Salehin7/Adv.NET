@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<a href="../ngo/Index">NGO</a>
+<a href="../employee/employeedashboard">Employee</a>
+
+<h2>Index</h2>
+@if (Model != null)
+{
+
+    <table class="table table-borderless">
+        <tr>
+            @*<th>RequestID</th>*@
+            <th>RestaurantName</th>
+            <th>EmployeeName</th>
+            <th>MaxPreservationTime</th>
+            <th>Status</th>
+            <th>RequestDate</th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td class="">@item.RequestID</td>*@
+                <td>@item.RestaurantName</td>
+                <td>@item.EmployeeName</td>
+                <td>@item.MaxPreservationTime</td>
+                <td>@item.Status</td>
+                <td>@item.RequestDate</td>
+                <td>
+                    <button class="btn btn-primary">Accept</button>
+                    <button class="btn btn-danger">Reject</button>
+
+                </td>
+            </tr>
+        }
+    </table>
+}

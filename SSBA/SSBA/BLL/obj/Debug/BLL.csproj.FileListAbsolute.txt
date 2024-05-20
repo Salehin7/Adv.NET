@@ -1,0 +1,28 @@
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\BLL.dll
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\BLL.pdb
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\AutoMapper.dll
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\DAL.dll
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\DAL.pdb
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\DAL.dll.config
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\AutoMapper.xml
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\obj\Debug\BLL.dll
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\obj\Debug\BLL.pdb
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\EntityFramework.dll
+D:\AIUB\ADV .NET\Projects\SSBA\BLL\bin\Debug\EntityFramework.xml
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\BLL.dll
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\BLL.pdb
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\AutoMapper.dll
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\DAL.dll
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\EntityFramework.dll
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\DAL.pdb
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\DAL.dll.config
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\AutoMapper.xml
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\bin\Debug\EntityFramework.xml
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\obj\Debug\BLL.dll
+D:\booksandstuff\.NET\.net\SSBA\SSBA\BLL\obj\Debug\BLL.pdb
